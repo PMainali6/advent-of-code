@@ -25,7 +25,6 @@ fn part1(input: &str) -> i32 {
         output.push(num);
     }
     let final_out = output.iter().sum();
-    println!("output: {}", final_out);
     final_out
 }
 
